@@ -5,8 +5,9 @@ excerpt: "GitHub Blog 서비스인 github.io 블로그를 시작합니다"
 categories:
   - blog
 tags:
-  - [blog, diary]
+  - [blog, diary, ham]
 last_modified_at: 2019-06-18T01:22:00
+author_profile: true
 ---
 
 <!-- GitHub Blog 서비스인 github.io 블로그를 시작합니다. -->
