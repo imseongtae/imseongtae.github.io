@@ -1,6 +1,8 @@
 ---
 title:  "django study"
 excerpt: "django study를 기획하고 함께 학습한 내용을 정리합니다."
+toc: true
+toc_sticky: true
 
 categories:
   - blog

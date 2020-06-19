@@ -1,6 +1,8 @@
 ---
 title:  "github.io 블로그 시작"
 excerpt: "GitHub Blog 서비스인 github.io 블로그를 시작합니다"
+toc: true
+toc_sticky: true
 
 categories:
   - blog
