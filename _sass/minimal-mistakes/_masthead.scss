@@ -11,6 +11,10 @@
   animation-delay: 0.15s;
   z-index: 20;
 
+  // haemil custom color
+  background-color: $haemil-custom-color;
+
+
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
@@ -71,6 +75,7 @@
   width: 100%;
   clear: both;
 
+
   .site-nav {
     margin-left: 0;
 
@@ -91,7 +96,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  
   &--lg {
     padding-right: 2em;
     font-weight: 700;
