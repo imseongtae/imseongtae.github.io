@@ -27,7 +27,7 @@ sequelize-cli를 통해 sequelize의 기본 구조를 생성하고, models 폴�
 
 ## 목차
 - 모델을 직접 등록하는 방법
-- sequelize의 버전을 낮추는 방법
+- sequelizerc 설정하는 방법
 
 ---
 
@@ -55,9 +55,9 @@ db.Sequelize = Sequelize;
 module.exports = db;
 ```
 
-### sequelize의 버전을 낮추는 방법
+### sequelizerc 설정하는 방법
 - models 폴더의 모든 파일들을 불러와서 db객체에 모델을 정의하기 위해 `import 메서드`가 models 폴더의 파일을 순회하며 Model을 취합니다. 
-- 해당 구문을 사용하기 위해 버전을 낮추니 정상적으로 작동했습니다.
+- 해당 구문을 사용하기 위해 sequelizerc 설정을 적용하니 정상적으로 작동했습니다.
 
 ```js
 fs.readdirSync(__dirname)
@@ -72,10 +72,12 @@ fs.readdirSync(__dirname)
 });
 ```
 
+`sequelize`는 항상 최신 버전으로 유지한다.
+
 ```json
 {
-  "sequelize": "^4.41.0",
-  "sequelize-cli": "^5.2.0"
+  "sequelize": "^6.3.4",
+  "sequelize-cli": "^6.2.0",
 }
 ```
 
